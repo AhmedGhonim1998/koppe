@@ -1,0 +1,838 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600&display=swap');
+
+:root {
+    --f_bc_color: #38241f;
+    --sec_bc_color: #fffbf2;
+    --cofee_color: #da9f5b;
+    --color_mian_bc: #38241f73;
+    --font_color: #e3dacf;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.email_signup_content {
+    padding-left: 12px;
+    border: none;
+}
+
+.button_signup_content {
+    background-color: var(--cofee_color);
+    color: var(--f_bc_color);
+    width: 83px;
+    height: 43px;
+    border: none;
+    transition: .2s;
+}
+
+.button_signup_content:hover {
+    background-color: var(--f_bc_color);
+    color: var(--cofee_color);
+    cursor: pointer
+}
+
+body {
+    font-family: 'Rubik', sans-serif;
+}
+
+title {
+    text-transform: uppercase;
+}
+
+.d_flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.vertical_line {
+    border-left: 1px solid var(--cofee_color);
+    height: 100px;
+    margin-left: 50%;
+}
+
+h4 {
+    text-transform: uppercase;
+    color: var(--cofee_color);
+    font-size: 1.5rem;
+    margin-top: 1%;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+h2 {
+    text-transform: capitalize;
+    color: var(--f_bc_color);
+    margin-top: 2px;
+    font-size: 3rem;
+    text-align: center;
+}
+
+/***************************************glopal********************************************/
+/*********************************start main section style************************/
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-right: 40px;
+}
+
+ul li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    transition: .2s;
+    text-transform: capitalize;
+}
+
+.left ul li a:hover {
+    color: var(--cofee_color);
+}
+
+.down h2,
+h1,
+.down h4 {
+    color: white;
+}
+
+.koppe h2 {
+    margin-top: 2px;
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: white;
+}
+
+.down h3 {
+    color: var(--cofee_color);
+    text-transform: capitalize;
+    font-size: 2rem;
+    margin-bottom: 0;
+}
+
+.down h1 {
+    text-transform: uppercase;
+    font-size: 6rem;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.main_section {
+    background-image: linear-gradient(var(--color_mian_bc), var(--color_mian_bc)), url(../img/carousel-1.jpg);
+    min-height: 100vh;
+    background-size: cover;
+    position: relative;
+    
+}
+
+.up {
+    justify-content: space-between;
+    padding: 10px 2%;
+}
+
+.un_ordered_list ul li {
+    margin-left: 20px;
+}
+
+.down {
+    text-align: center;
+    margin-top: 10%;
+}
+
+.main_section .main_section_bottom {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+/*********************************end main section style************************/
+/*********************************start about us style************************/
+.about_us {
+    background-color: var(--sec_bc_color);
+    padding-top: 10%;
+}
+
+.serving_1950 h2 {
+    font-size: 2rem;
+}
+
+.serving_1950 h2,
+.our_story h4,
+.our_vision h4 {
+    color: var(--f_bc_color);
+}
+
+.our_story h4,
+.our_vision h4 {
+    margin-bottom: 4%;
+    font-size: 2rem;
+    text-transform: capitalize;
+    text-align: start;
+}
+
+.our_story {
+    margin-left: 2%;
+}
+
+.about_us_paragraph p {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.OurStoryFirstParagraph p {
+    color: var(--f_bc_color);
+}
+
+.OurStorySecondParagraph p {
+    color: gray;
+}
+
+.OurStorySecondParagraph p:first-child {
+    margin-top: 4%;
+}
+
+.OurStorySecondParagraph p:last-child,
+.OurVisionParagraph p:last-child {
+    margin-bottom: 4%;
+}
+
+.our_story button,
+.our_vision button {
+    background-color: var(--f_bc_color);
+    color: white;
+    width: 120px;
+    height: 35px;
+    border: none;
+    transition: .2s;
+    cursor: pointer;
+}
+
+.our_story button:hover {
+    background-color: var(--cofee_color);
+    color: var(--f_bc_color);
+}
+
+.our_vision button:hover {
+    background-color: var(--f_bc_color);
+    color: var(--cofee_color);
+
+}
+
+.coffee_mug {
+    width: 30%;
+}
+
+.OurVisionParagraph {
+    color: gray;
+}
+
+.fa-check {
+    color: var(--cofee_color);
+    margin-right: 10px;
+}
+
+.icon {
+    margin-bottom: 10px;
+}
+
+.our_vision button {
+    background-color: var(--cofee_color);
+    color: var(--f_bc_color);
+}
+
+.bottom {
+    justify-content: space-around;
+    padding: 10px 8%;
+}
+
+/*********************************end about us style************************/
+/*********************************start our services style************************/
+.our_services {
+    background-color: var(--sec_bc_color);
+    padding-top: 5%;
+}
+
+.our_services_heads h4,
+.our_services_heads h2 {
+    text-align: center;
+}
+
+.fresh_organic_beans img {
+    width: 187px;
+}
+
+.fresh_organic_beans {
+    padding: 10px 6%;
+    padding-bottom: 8%;
+}
+
+.fresh_organic_beans_up {
+    margin-bottom: 3%;
+}
+
+.fresh_organic_beans_up,
+.fresh_organic_beans_down {
+    justify-content: space-around;
+}
+
+.FastestDoorDelivery,
+.FreshCoffeeBeans {
+    margin-left: 40px;
+    margin-top: 28px;
+}
+
+.glopal_our_services_styles p {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: gray;
+}
+
+.BestQualityCofee,
+.OnlineTableBooking {
+    margin-left: 40px;
+    margin-top: 28px;
+}
+
+.global_our_services_icons {
+    margin-bottom: 4%;
+    color: var(--f_bc_color);
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+.Fresh_OrganicBeansIcons {
+    margin-right: 12px;
+    background-color: var(--cofee_color);
+    padding: 10px;
+    border-radius: 50%;
+}
+
+/*********************************end our services style************************/
+/***********************************start perc style***************************/
+.percentage_offer h1,
+h2 {
+    text-align: center;
+}
+
+.percentage_offer h1 {
+    color: var(--cofee_color);
+    font-size: 5rem;
+    padding-top: 5%;
+    margin-bottom: 0;
+}
+
+.percentage_offer h2 {
+    font-size: 3rem;
+    margin-bottom: 0;
+    color: white;
+}
+
+.percentage_offer {
+    background-image: linear-gradient(var(--color_mian_bc), var(--color_mian_bc)), url(../img/bg.jpg);
+    min-height: 75vh;
+    background-size: cover;
+    position: relative;
+}
+
+.percentage_offer p {
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 0;
+}
+
+.email_signUp {
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.email_signUp input {
+    padding-left: 12px;
+    border: none;
+}
+
+.percentage_offer>img:last-child {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+.percentage_offer>img:first-child {
+    margin-top: 0;
+    width: 100%;
+}
+
+/***********************************end perc style***************************/
+/***********************************start menu style***************************/
+.menu {
+    background-color: var(--sec_bc_color);
+    padding-top: 5%;
+}
+
+.hot_cofee h3,
+.cold_cofee h3 {
+    text-transform: capitalize;
+    color: var(--f_bc_color);
+    margin-bottom: 5%;
+    font-size: 1.5rem;
+}
+
+.hot_cofee img,
+.cold_cofee img {
+    border-radius: 50%;
+    width: 130px;
+}
+
+.hot_cold_cofee .menu_picture {
+    position: relative;
+}
+
+.hot_cold_cofee .menu_picture::before {
+    content: "$5";
+    position: absolute;
+    background-color: var(--cofee_color);
+    color: black;
+    width: 30px;
+    height: 30px;
+    left: 65%;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 50%;
+}
+
+.choco_cofee .hot_cofee_pics,
+.choco_cold_cofee .cold_cofee_pics::before {
+    content: "$7";
+}
+
+.milk_cofee .hot_cofee_pics,
+.milk_cold_cofee .cold_cofee_pics::before {
+    content: "$9";
+}
+
+.hot_cold_cofee h6 {
+    font-size: 1rem;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+
+.hot_cold_cofee p {
+    font-size: .9rem;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: gray;
+}
+
+.hot_cold_cofee_margins {
+    margin-left: 2%;
+}
+
+.hot_cofee,
+.cold_cofee {
+    width: 45%;
+}
+
+.hot_cold_cofee {
+    justify-content: space-around;
+    padding: 10px 6% 8%;
+    padding-bottom: 0;
+}
+
+.hot_cold_cofee_margin_bottom {
+    margin-bottom: 30px;
+}
+
+/***********************************end menu style***************************/
+/***********************************start booking table style***************************/
+.thirty_percent_off h1 {
+    color: var(--cofee_color);
+    font-size: 3rem;
+}
+
+.thirty_percent_off h2 {
+    font-size: 2rem;
+    text-transform: capitalize;
+    margin-right: 56px;
+    color: white;
+    text-align: start;
+}
+
+.inputs input {
+    display: block;
+}
+
+.booking_table {
+    background-color: var(--sec_bc_color);
+    color: white;
+    padding: 13%;
+    padding-bottom: 7%;
+}
+
+.book {
+    background-image: linear-gradient(#38241f6b, #38241f6b), url(../img/bg.jpg);
+    padding-bottom: 5%;
+    background-size: cover;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    position: relative;
+}
+
+.inputs input {
+    border: 1px solid;
+    margin-bottom: 2%;
+    background-color: transparent;
+    border-color: var(--cofee_color);
+    padding-left: 12px;
+    height: 35px;
+    width: 333px;
+}
+
+.book_your_table {
+    background-image: linear-gradient(var(--f_bc_color), #38241f6b);
+    width: 50%;
+}
+
+.thirty_percent_off_paragraph p {
+    color: white;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.thirty_percent_off_paragraph p:last-child {
+    margin-bottom: 30px;
+}
+
+.thirty_percent_off_content {
+    padding-left: 50px;
+    margin-top: 30%;
+}
+
+.book_your_table_content {
+    margin-left: 15%;
+    margin-top: 20%;
+}
+
+.book_your_table_content button {
+    background-color: var(--cofee_color);
+    color: var(--f_bc_color);
+    width: 350px;
+    height: 43px;
+    border: none;
+    text-transform: capitalize;
+    transition: .2s;
+    cursor: pointer;
+    width: 79%;
+}
+
+.book_your_table_content button:hover {
+    background-color: var(--f_bc_color);
+    color: var(--cofee_color);
+}
+
+.book_your_table_content h3 {
+    margin-left: 10%;
+    margin-bottom: 7%;
+    color: white;
+    text-transform: capitalize;
+    font-size: 2rem;
+}
+
+.thirty_percent_off_content h1 {
+    font-size: 3.5rem;
+}
+
+.book img:first-child,
+.book img:last-child {
+    width: 100%;
+    position: absolute;
+}
+
+.book img:first-child {
+    top: 0;
+}
+
+.book img:last-child {
+    bottom: 0;
+}
+
+/***********************************end booking table style***************************/
+/***********************************start clien say style***************************/
+.client {
+    background-color: var(--sec_bc_color);
+    padding-bottom: 10%;
+}
+
+.our_client_say {
+    justify-content: space-around;
+}
+
+.client_title h5 {
+    margin-top: 15%;
+    margin-bottom: 0;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    margin-left: 20px;
+    color: var(--f_bc_color);
+}
+
+.client_title p {
+    margin-top: 8px;
+    color: grey;
+    font-style: italic;
+    text-transform: capitalize;
+}
+
+.client_title p {
+    margin-left: 20px;
+}
+
+.at_the_bottom {
+    justify-content: space-around;
+}
+
+.client_paragraph p {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: gray;
+}
+
+.client_paragraph p:first-child {
+    margin-top: 20px;
+}
+
+.circle {
+    background-color: var(--cofee_color);
+    color: var(--cofee_color);
+    background-color: var(--cofee_color);
+    color: var(--cofee_color);
+    border-radius: 50%;
+}
+
+.wide {
+    background-color: var(--f_bc_color);
+    color: var(--f_bc_color);
+    width: 30px;
+    border-radius: 50px;
+}
+
+.circles {
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.circle {
+    margin-left: 10px;
+}
+
+/***********************************end clien say style***************************/
+/***********************************start footer style***************************/
+footer {
+    background-image: linear-gradient(var(--f_bc_color), #38241f6b), url(../img/bg.jpg);
+    position: relative;
+}
+
+.upper_content {
+    justify-content: space-around;
+    padding-top: 8%;
+}
+
+footer h4 {
+    text-transform: uppercase;
+    text-align: start;
+    color: white;
+}
+
+.footer_info_icons .fa-solid::before {
+    margin-right: 10px;
+}
+
+.footer_info_icons {
+    margin-bottom: 10px;
+}
+
+.footer_info_icons .fa-solid {
+    color: white;
+    font-size: .8rem;
+}
+
+.follow_us_paragraph p {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: white;
+}
+
+.social {
+    justify-content: space-around;
+}
+
+.media {
+    background-color: transparent;
+    color: white;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border: 1px solid white;
+}
+
+.social .fa-brands {
+    margin-left: 2%;
+    margin-top: 4%;
+}
+
+.lower_content>hr {
+    color: rgb(83, 83, 83);
+}
+
+.monday_friday_time p {
+    text-transform: uppercase;
+}
+
+.monday_friday_time p:last-child {
+    margin-bottom: 2%;
+}
+
+.monday_friday_time {
+    margin-bottom: 6%;
+}
+
+.sletter_paragraph p,
+.monday_friday_time p {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: white;
+}
+
+.sletter_paragraph p:last-child {
+    margin-top: 0;
+    margin-bottom: 4%;
+}
+
+.copy_right_content p {
+    color: white;
+}
+
+.copy_right_content p:last-child {
+    margin-left: 40px;
+}
+
+span {
+    color: var(--cofee_color);
+}
+
+.cont {
+    justify-content: space-evenly;
+}
+
+.arrow_footer {
+    position: absolute;
+    background-color: var(--cofee_color);
+    color: black;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 20px;
+    transition: .2s;
+    margin-inline-start: 90%;
+}
+
+.arrow_footer:hover {
+    background-color: var(--f_bc_color);
+    color: var(--cofee_color);
+}
+
+footer img {
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
+
+/***********************************end footer style***************************/
+/***********************************start responsive styles***************************/
+@media (max-width:1115px) {
+    .bottom {
+        flex-direction: column;
+        margin-left: 24%;
+    }
+
+    .our_story {
+        margin-bottom: 8%;
+    }
+
+    .coffee_mug {
+        width: 70%;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .book {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .book_your_table {
+        width: 100%;
+    }
+
+    .inputs input {
+        width: 90%;
+    }
+
+    .book_your_table_content button {
+        width: 95%;
+    }
+
+    .client_properties {
+        margin-bottom: 2%;
+    }
+
+}
+
+@media (max-width:850px) {
+    :root {
+        font-size: 12px;
+    }
+
+    .up {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .upper_content {
+        flex-direction: column;
+        align-items: center;
+        text-align: center
+    }
+
+    .our_client_say {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width:600px) {
+    :root {
+        font-size: 12px;
+    }
+
+    .fresh_organic_beans img {
+        width: 25%;
+    }
+
+    ul {
+        flex-direction: column;
+    }
+
+    ul li {
+        margin-bottom: 2%;
+    }
+
+    .un_ordered_list {
+        text-align: center;
+    }
+}
+
+/***********************************end responsive styles***************************/
